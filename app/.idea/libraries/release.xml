@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="release">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/release/classes-9d549dbdb5de8bdb9cf88154e37987a3f64134fd.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/release/classes-d95170ef44da6bc5564a6f8533cd8c9c98cb49ed.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/release/support-annotations-21.0.3-97a64fcb3ae11cdddfffdd5ea523d15f7e88adc8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/pre-dexed/release/internal_impl-21.0.3-2b3becf98b5f9aacd3ca991d184cdbbb93d63970.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -4,15 +4,13 @@
     <string-array name="conversion_types">
         <item>tsp</item>
         <item>tbs</item>
-        <item>cup</item>
-        <item>oz</item>
+        <item>shot</item>
         <item>pint</item>
+        <item>cup</item>
         <item>quart</item>
         <item>gallon</item>
-        <item>pound</item>
+        <item>oz</item>
         <item>ml</item>
         <item>liter</item>
-        <item>mg</item>
-        <item>kg</item>
     </string-array>
 </resources>

@@ -9,9 +9,9 @@ public class Quantity {
 
     public static enum Unit{
 
-        tsp(1.0d), tbs(.3333d), cup(0.0208d), oz(0.1666d),
-        pint(0.0104d), quart(0.0052d), gallon(0.0013d), pound(0.0125d),
-        ml(4.9289d), liter(0.0049d), mg(5687.5d), kg(0.0057d);
+        tsp(1.0d), tbs(0.33333333333d), cup(0.02d), oz(0.1759943681802182d),
+        pint(0.0087987892865942d), quart(0.0043993946432971d), gallon(0.0010998462414954d),
+        ml(5.0000000d), liter(0.0050000d), shot(0.1173295787868121333d);
 
         final static Unit baseUnit = tsp;
 
@@ -48,7 +48,12 @@ public class Quantity {
     @Override
     public String toString(){
 
-        DecimalFormat df = new DecimalFormat("#.0000");
-        return df.format(value) + " " + unit.name();
+        DecimalFormat df = new DecimalFormat("0.00");
+        String dString = df.format(value);
+        dString = dString.indexOf(".") < 0 ? dString : dString.replaceAll("0*$", "").replaceAll("\\.$", "");
+        if (Double.parseDouble(dString) > 9007199254740990.0){
+            dString = "Overflow Error";
+        }
+        return dString + " " + unit.name();
     }
 }
