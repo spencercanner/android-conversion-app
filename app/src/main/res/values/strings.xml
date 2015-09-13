@@ -15,5 +15,10 @@
     <string name="default_liter_value">0 liter</string>
     <string name="default_pint_value">0 pint</string>
     <string name="default_shot_value">0 shot</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
 
 </resources>

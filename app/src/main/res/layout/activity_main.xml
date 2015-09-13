@@ -17,7 +17,7 @@
         android:layout_margin="15dp">
 
     <EditText
-        android:layout_weight="0.65"
+        android:layout_weight="0.40"
         android:id="@+id/amount_text_view"
         android:layout_width="0dp"
         android:layout_height="fill_parent"
@@ -31,6 +31,14 @@
         android:layout_height="fill_parent"
         android:paddingLeft="15dp"
         android:paddingRight="15dp" />
+
+        <Spinner
+            android:id="@+id/country_spinner"
+            android:layout_weight="0.25"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"/>
 
     </LinearLayout>
 
